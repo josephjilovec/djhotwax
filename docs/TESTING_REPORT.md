@@ -11,3 +11,8 @@
 
 ## Environment limitation
 `npm install` cannot be completed in the generation environment because its internal npm proxy returns 404 responses for public `@types/*` packages. Therefore a real dependency-backed `next build` was not claimed here. Vercel should run the final production install/build after push.
+
+## Form delivery
+
+DJ Hotwax forms submit directly through FormSubmit AJAX to `realjjemail@gmail.com`. No API key or Vercel environment variable is required.
+

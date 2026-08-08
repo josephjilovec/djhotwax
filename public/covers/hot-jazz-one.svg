@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17100d"/><stop offset="1" stop-color="#050505"/></linearGradient>
+    <radialGradient id="glow" cx="35%" cy="35%" r="60%"><stop stop-color="#ff7a32" stop-opacity=".55"/><stop offset="1" stop-color="#ff7a32" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <rect width="1200" height="1200" fill="url(#glow)"/>
+  <g fill="none" stroke="#f6d8b8" stroke-width="10" opacity=".9">
+    <path d="M250 770C345 670 390 530 430 300"/>
+    <path d="M430 300C520 350 575 435 595 530"/>
+    <path d="M595 530C660 470 730 455 800 485"/>
+    <path d="M800 485C850 535 875 620 875 750"/>
+  </g>
+  <circle cx="430" cy="300" r="40" fill="#f04d1e"/>
+  <circle cx="595" cy="530" r="31" fill="#d8ff45"/>
+  <circle cx="800" cy="485" r="28" fill="#f6d8b8"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#f8efe5">
+    <text x="86" y="104" font-size="34" letter-spacing="14">DJ HOTWAX</text>
+    <text x="86" y="930" font-size="96" font-weight="700" letter-spacing="-4">HOT JAZZ</text>
+    <text x="90" y="1015" font-size="42" letter-spacing="12" fill="#f04d1e">VOLUME ONE</text>
+    <text x="90" y="1082" font-size="22" letter-spacing="7" opacity=".65">AFTER HOURS · WARM STREETS · MIDNIGHT SECRETS</text>
+  </g>
+  <rect x="84" y="1120" width="1032" height="2" fill="#f6d8b8" opacity=".25"/>
+</svg>

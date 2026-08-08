@@ -23,4 +23,8 @@ Import `josephjilovec/djhotwax` and leave Vercel settings at defaults:
 - Build: default
 - Output: default (do not use `dist`)
 
-Optional email environment variables: `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL`.
+
+## Form delivery
+
+DJ Hotwax forms submit directly through FormSubmit AJAX to `realjjemail@gmail.com`. No API key or Vercel environment variable is required.
+
