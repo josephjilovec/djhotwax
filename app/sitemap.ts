@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next";const base="https://djhotwax.vercel.app";export default function sitemap():MetadataRoute.Sitemap{return["","/music","/worlds","/licensing","/about"].map(path=>({url:`${base}${path}`,lastModified:new Date(),changeFrequency:"monthly" as const,priority:path?0.8:1}))}
